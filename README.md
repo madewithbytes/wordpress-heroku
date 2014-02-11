@@ -6,7 +6,7 @@ This project is a template for installing and running [WordPress](http://wordpre
 
 Clone the repository from Github
 
-    $ git clone git://github.com/mhoofman/wordpress-heroku.git
+    $ git clone git://github.com/madewithbytes/wordpress-heroku.git
 
 With the [Heroku gem](http://devcenter.heroku.com/articles/heroku-command), create your app
 
