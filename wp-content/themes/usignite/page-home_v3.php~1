@@ -1,0 +1,139 @@
+<?php
+get_header('v3'); ?>
+  <style type="text/css" media="screen">
+  p.addthis_pill_combo {
+    margin:1em 0;
+  }
+    .addthis_toolbox.addthis_pill_combo a {
+        float: left;
+    }
+    .addthis_toolbox.addthis_pill_combo a.addthis_button_tweet,
+    .addthis_toolbox.addthis_pill_combo a.addthis_counter {
+
+    }
+    .addthis_button_compact .at15t_compact {
+        margin-right: 4px;
+        float: left;
+    }
+  </style>
+  <div id="root">
+  	<header id="top">
+  		<h1 id="logo"><a href="./" accesskey="h"><img src="/assets/v3/images/logo-a.png" width="213" height="54" alt="USIgnite" /></a></h1>
+  		<nav id="skips">
+  			<ul>
+  				<li><a href="#nav" accesskey="n">Skip to navigation [n]</a></li>
+  				<li><a href="#content" accesskey="c">Skip to content [c]</a></li>
+  				<li><a href="#footer" accesskey="f">Skip to footer [f]</a></li>
+  			</ul>
+  		</nav>
+  		<nav id="nav">			
+  			<h2 class="offset">Navigation</h2>
+  			<ul>
+  				<li><a href="/our-mission/" accesskey="1">Our Mission</a><em> [1]</em></li>
+  				<li><a href="/city-stories" accesskey="2">City Stories</a><em> [2]</em></li>
+  				<li><a href="/next-gen-applications/" accesskey="3">Next Gen Applications</a><em> [3]</em></li>
+  				<li><a href="/next-gen-networks/" accesskey="4">Next Gen Networks</a><em> [4]</em></li>
+  				<li><a href="/events/" accesskey="5">News &amp; Events</a><em> [5]</em></li>
+  				<li><a href="/get-involved/" accesskey="6">Get Involved</a><em> [6]</em></li>
+  			</ul>
+  		</nav>
+  		<div id="connect">
+  			<p>Connect With Us:</p>
+  			<ul class="addthis_toolbox" addthis:url="http://us-ignite.org" addthis:title="US Ignite" addthis:description="Developing Gigabit-ready digital experiences and applications.">
+  				<li class="facebook"><a class="addthis_button_facebook">Facebook</a></li>
+  				<li class="twitter"><a class="addthis_button_twitter" href="#">Twitter</a></li>
+  				<li class="add"><a class="addthis_button_compact" href="#">Add</a></li>
+  				<li class="email"><a class="addthis_button_email" href="#">Email</a></li>
+  			</ul>
+  		</div>
+  		<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=istrat"></script>
+  	</header><!-- #top -->
+  	<section id="content">
+  		<div class="inner">
+  			<div class="showcase-a">
+  				<div class="wrap">
+  					<div class="slider">
+  						<article>
+  							<figure><a href="./" class="video"><img src="/assets/v3/images/dot.png" width="300" height="210" alt="Dot" /></a></figure>
+  							<h1>Aliquam laoreet egestas lect us, non ultricies ligula sodales non cursus eleifend ornare.</h1>
+  							<p class="more"><a href="./">Learn More &gt;</a></p>
+  						</article>
+  						<article>
+  							<figure><a href="./" class="video"><img src="/assets/v3/images/dot.png" width="300" height="210" alt="Dot" /></a></figure>
+  							<h1>Aliquam laoreet egestas lect us non ultricies ligula 2</h1>
+  							<p class="more"><a href="./">Learn More &gt;</a></p>
+  						</article>
+  						<article>
+  							<figure><a href="./" class="video"><img src="/assets/v3/images/dot.png" width="300" height="210" alt="Dot" /></a></figure>
+  							<h1>Aliquam laoreet egestas lect us non ultricies ligula 3</h1>
+  							<p class="more"><a href="./">Learn More &gt;</a></p>
+  						</article>
+  					</div>
+  				</div>
+  			</div>
+  			<div class="intro-a">
+  				<div class="one">
+  					<h2>About Us Ignite Lorem Ipsum:</h2>
+  					<p>US Ignite is an initiative to promote US leadership in developing applications and services for ultra-fast broadband and software-defined networks. It will foster the creation of novel applications and digital experiences that will transform healthcare, education and job skills training, public safety, energy, and advanced manufacturing. By serving as a coordinator and incubator of this ecosystem, US Ignite will accelerate the adoption of next-generation networks. <a href="./">Learn More &gt;</a></p>
+  				</div>
+  				<div class="two">
+  					<h2>Recent News &amp; Events <a href="./">+ More</a></h2>
+  					<ul>
+  						<li><a href="./">Fusce Ligula Donec a Velit Eget Metus Cursus Feugiat Condir &gt;</a>
+                <p class="addthis_toolbox addthis_pill_combo" addthis:url="http://us-ignite.org" addthis:title="US Ignite" addthis:description="Developing Gigabit-ready digital experiences and applications.">
+  								<a class="addthis_button_facebook_like" href="#"></a>
+  								<a class="addthis_button_tweet" tw:count="horizontal" href="#"></a>
+  							</p>
+  						</li>
+  						<li><a href="./">Fusce Ligula Donec a Velit Eget Metus Cursus Feugiat Condir &gt;</a>
+  							<p class="addthis_toolbox addthis_pill_combo" addthis:url="http://us-ignite.org" addthis:title="US Ignite" addthis:description="Developing Gigabit-ready digital experiences and applications.">
+  								<a class="addthis_button_facebook_like" href="#"></a>
+  								<a class="addthis_button_tweet" tw:count="horizontal" href="#"></a>
+  							</p>
+  						</li>
+  					</ul>
+  				</div>
+  			</div>
+  			<div class="triplets-a">
+  				<div class="column city featured">
+  					<h2 class="cleveland">Cleveland</h2>
+  					<figure><img src="/assets/v3/images/dot.png" width="248" height="123" alt="Dot" /></figure>
+  					<p>Curabitur fermentum felis sed dolor laor eet et consectetur massa phar etra. Ut comm odo metus vel mauris dictum lacinia. Prae sent risus erat, auctor et facilisis ultrices.</p>
+  					<p class="more"><a href="./">Learn More &gt;</a></p>
+  					<h3>Share:</h3>
+  					<span class="addthis_toolbox addthis_pill_combo" addthis:url="http://us-ignite.org" addthis:title="US Ignite" addthis:description="Developing Gigabit-ready digital experiences and applications.">
+  						 <a class="addthis_button_facebook_like" href="#" ></a>
+  						<a class="addthis_button_tweet" tw:count="horizontal" href="#" ></a>
+  					</span>
+  				</div>
+  				<div class="column twitter">
+  					<h2>On Twitter <a href="http://twitter.com/us_ignite" rel="external">+ Follow Us</a></h2>
+  					<div id="tweets">
+<!--  						<li><a href="./" class="user">@levgonick</a> Another Great Cleveland Start Up Story. Surgical Theater: A Dress Rehearsal For Neurosurgeons <a href="./">http://t.co/czS10dAq</a> <time>10 hrs ago</time></li>
+  						<li><a href="./" class="user">@usignite</a> <a href="./">#Florida</a> businesses with #broadband connections generate more revenue + jobs <a href="./">http://ht.ly/bo87P</a> via <a href="./">@OBJUpdate</a> <time>10 hrs ago</time></li>-->
+  					</div>
+  				</div>
+  				<div id="twitter_test"></div>
+  				<script type="text/javascript" charset="utf-8">
+            $(document).ready(function(){
+              getTwitters('tweets', {
+              id: 'us_ignite',
+              count: 2,
+              enableLinks: true,
+              ignoreReplies: true,
+              clearContents: true,
+              template: '<a class="user" href="http://twitter.com/%user_screen_name%/statuses/%id%/">@%user_screen_name%</a> %text% <time>%time%</time>'
+              });
+            });
+          </script>
+  				
+  				<div class="column facebook">
+  					<!--img src="/assets/v3/images/dot.png" width="250" height="320" alt="Dot" style="display: block;" /-->
+  					<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FUSIgnite&amp;width=250&amp;height=395&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=false&amp;appId=295975750457052" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:395px; background-color:#ffffff;" allowTransparency="true"></iframe>
+  				</div>
+  			</div>
+  		</div>
+  	</section><!-- #content -->
+  	
+
+<?php get_footer('v3'); ?>

@@ -1,0 +1,25 @@
+<footer id="footer">
+	<h2>US Ignite Sponsors:</h2>
+	<div class="carousel-a">
+		<div class="wrap">
+			<div class="slider">
+				<ul>
+					<li><a href="./"><img src="/assets/v3/images/dot.png" width="150" height="75" alt="Dot" /></a></li>
+					<li><a href="./"><img src="/assets/v3/images/dot.png" width="150" height="75" alt="Dot" /></a></li>
+					<li><a href="./"><img src="/assets/v3/images/dot.png" width="150" height="75" alt="Dot" /></a></li>
+					<li><a href="./"><img src="/assets/v3/images/dot.png" width="150" height="75" alt="Dot" /></a></li>
+					<li><a href="./"><img src="/assets/v3/images/dot.png" width="150" height="75" alt="Dot" /></a></li>
+					<li><a href="./"><img src="/assets/v3/images/dot.png" width="150" height="75" alt="Dot" /></a></li>
+					<li><a href="./"><img src="/assets/v3/images/dot.png" width="150" height="75" alt="Dot" /></a></li>
+					<li><a href="./"><img src="/assets/v3/images/dot.png" width="150" height="75" alt="Dot" /></a></li>
+					<li><a href="./"><img src="/assets/v3/images/dot.png" width="150" height="75" alt="Dot" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<p class="copys">Copyright 2012 US Ignite  All Rights Reserved.</p>
+</footer><!-- #footer -->
+</div><!-- #root -->
+
+</body>
+</html>

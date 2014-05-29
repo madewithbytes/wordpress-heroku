@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>USIgnite</title>
+ 	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/v3/javascript/extras.js?v=1"></script>
+	<script type="text/javascript" src="/assets/v3/javascript/scripts.js?v=1"></script>
+	<script type="text/javascript" src="/assets/v3/javascript/twitter.js?v=1"></script>
+
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" />
+	<link rel="stylesheet" type="text/css" href="/assets/v3/styles/screen.css?v=1" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/assets/v3/styles/print.css?v=1" media="print" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+

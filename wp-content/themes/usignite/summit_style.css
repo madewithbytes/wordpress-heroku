@@ -1,0 +1,72 @@
+/*
+ * Project:   US Ignite 2013 Splash
+ * Date:      2013-04-03
+/* ---------------------------------------- */
+.general-sprite, h1, .info h2, .social li.facebook a, .social li.twitter a, .social li.email a { background: url('images/summit/general-se50b4e3d75.png') no-repeat; }
+
+* { margin: 0; padding: 0; }
+
+html { overflow-y: scroll; }
+
+body { background: #eab922 url('images/summit/bg.jpg?1364987728') 50% 50% no-repeat fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; font-size: 10px; }
+
+body, textarea, input, select, option, button { color: #fff; font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif; line-height: 1.5; }
+
+li, dt, dd, p, figure, th, td, caption, pre { font-size: 16px; }
+
+blockquote, ul, ol, dl, p, table, pre, h1, h2, h3, h4, h5, h6 { display: block; margin: 0 0 25px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, main { display: block; }
+
+/* defaults ------ */
+ul, ol, dd, blockquote { padding-left: 40px; }
+ul ul, ul ol, ol ul, ol ol, dd ul, dd ol, blockquote ul, blockquote ol { margin-bottom: 0; }
+
+a { color: #f36d21; text-decoration: none; }
+a:hover, a:focus, a:active { text-decoration: underline; }
+a span { cursor: pointer; }
+
+img { border-width: 0; image-rendering: optimizeQuality; -ms-interpolation-mode: bicubic; }
+
+/* mobile -------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) { body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } }
+/* helpers ------- */
+.offset { position: absolute !important; left: -10001px !important; overflow: hidden !important; }
+
+.pie-element, .root { behavior: url("pie.htc"); position: relative; }
+
+/* specific ------- */
+.root { position: relative; width: 660px; margin: 95px auto; background: #000; background: rgba(0, 0, 0, 0.8); border-radius: 10px; -pie-background: rgba(0, 0, 0, 0.8); }
+
+header { padding: 30px 0 0; margin: 0 0 25px; }
+
+h1 { margin: 0 auto 30px; background-position: 0 0; height: 86px; width: 494px; text-indent: 100%; white-space: nowrap; overflow: hidden; }
+
+.info { background: rgba(0, 0, 0, 0.75); border: 2px solid #f36d21; border-width: 2px 0; }
+.info h2 { background-position: 0 -350px; height: 78px; width: 424px; margin: 15px auto; text-indent: 100%; white-space: nowrap; overflow: hidden; }
+.info p { position: absolute; left: -999em; }
+
+main { padding: 0 45px 20px; }
+
+.social { padding: 0; list-style: none; text-align: center; }
+.social li { display: inline; margin: 0 5px; }
+.social a {
+    display: inline-block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    zoom:1;
+    *display: inline;
+}
+.social li.facebook a { background-position: 0 -130px; height: 44px; width: 116px; }
+.social li.facebook a:hover, .social li.facebook a.facebook_hover, .social li.facebook a.facebook-hover { background-position: 0 -86px; }
+.social li.twitter a { background-position: 0 -174px; height: 44px; width: 116px; }
+.social li.twitter a:hover, .social li.twitter a.twitter_hover, .social li.twitter a.twitter-hover { background-position: 0 -218px; }
+.social li.email a { background-position: 0 -306px; height: 44px; width: 116px; }
+.social li.email a:hover, .social li.email a.email_hover, .social li.email a.email-hover { background-position: 0 -262px; }
+
+p.intro, p.notice { font-size: 24px; }
+
+p.notice { color: #f36d21; }
