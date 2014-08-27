@@ -172,7 +172,6 @@
 		}
 		else
 		{
-			pg_query("SELECT NEXTVAL('$seq')");
 			$sql = "SELECT CURRVAL('$seq')";
 			
 			$res = pg_query($sql);
