@@ -223,18 +223,7 @@ class JSON_API_Introspector {
   
   public function get_comments($post_id) {
     global $wpdb;
-    $wp_comments = $wpdb->get_results($wpdb->prepare("
-      SELECT *
-      FROM $wpdb->comments
-      WHERE comment_post_ID = %d
-        AND comment_approved = 1
-        AND comment_type = ''
-      ORDER BY comment_date
-    ", $post_id));
     $comments = array();
-    foreach ($wp_comments as $wp_comment) {
-      $comments[] = new JSON_API_Comment($wp_comment);
-    }
     return $comments;
   }
   
